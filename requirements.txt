@@ -3,3 +3,4 @@ wheel
 tqdm
 twine
 requests
+./dist/opensea_wrapper-0.0.1-py3-none-any.whl
