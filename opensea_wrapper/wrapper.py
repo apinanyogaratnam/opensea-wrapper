@@ -14,7 +14,7 @@ def get_collection(collection, api_key=None):
 
     if api_key: headers = {'X-API-KEY': api_key}
 
-    url = f'{base_url}/{collection}'
+    url = f'{base_url}/collection/{collection}'
     response = None
     repeat = True
 
@@ -23,6 +23,7 @@ def get_collection(collection, api_key=None):
 
         if response.status_code != 200:
             time.sleep(1)
+            print(response.json())
             continue
 
         response = response.json()
