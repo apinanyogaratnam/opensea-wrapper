@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='opensea-wrapper',
-    version='0.1.8',
+    version='0.0.1',
     scripts=[],
     author="apinanyogaratnam",
     author_email="apinanapinan@icloud.com",
