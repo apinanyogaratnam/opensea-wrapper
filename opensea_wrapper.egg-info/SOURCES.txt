@@ -1,0 +1,8 @@
+README.md
+setup.py
+opensea_wrapper/__init__.py
+opensea_wrapper/wrapper.py
+opensea_wrapper.egg-info/PKG-INFO
+opensea_wrapper.egg-info/SOURCES.txt
+opensea_wrapper.egg-info/dependency_links.txt
+opensea_wrapper.egg-info/top_level.txt
